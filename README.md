@@ -1,4 +1,4 @@
-# popschool-lens/html-2016-2017
+# Cours de html (2016-2017)
 
 ## description
 
