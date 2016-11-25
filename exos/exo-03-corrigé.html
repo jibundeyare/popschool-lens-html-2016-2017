@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+    <!--
+    page votre profil (titre h1)
+
+    section profil (titre h2)
+    - image
+      - une image
+      - un champ file
+      - un lien (balise a) "supprimer l'image"
+    - nom
+    - prénom
+
+    section adresse (titre h2)
+    - rue
+    - code postal + ville (mais dans deux champs)
+
+    section compte (titre h2)
+    - identifiant
+    - mot de passe
+
+    boutons
+    - submit
+    - reset
+
+    les champs doivent être préremplis avec des valeurs fictives.
+    ex. :  toto, lorem ipsum, 123
+    -->
+
+    <h1>votre profil</h1>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <section>
+        <h2>profil</h2>
+
+        <div>
+          <div>
+            <img src="medias/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="Foo Bar" />
+          </div>
+          <div>
+            <input type="file" name="selfie" />
+          </div>
+          <div>
+            <a href="#">supprimer l'image</a>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <input type="text" name="prénom" placeholder="prénom" value="Foo" />
+          </div>
+          <div>
+            <input type="text" name="nom" placeholder="nom" value="Bar" />
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>adresse</h2>
+
+        <div>
+          <div>
+            <input type="text" name="rue" placeholder="rue" value="123 rue de qq part" />
+          </div>
+          <div>
+            <input type="text" name="code_postal" placeholder="code postal" value="59000" /> <input type="text" name="ville" placeholder="ville" value="Lille" />
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <h2>compte</h2>
+
+        <div>
+          <div>
+            <input type="text" name="identifiant" placeholder="identifiant" value="foo" />
+          </div>
+          <div>
+            <input type="password" name="mot_de_passe" placeholder="mot de passe" />
+          </div>
+        </div>
+
+      </section>
+
+      <div>
+        <input type="reset" value="reset" />
+        <input type="submit" value="valider" />
+      </div>
+
+    </form>
+
+  </body>
+</html>

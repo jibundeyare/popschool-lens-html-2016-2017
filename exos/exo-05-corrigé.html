@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+    <!--
+
+    page création d'un article (h1)
+
+    titre (longueur max 255)
+    slug (longueur max 255)
+    chapeau (texte multiligne)
+    corps de texte (texte multiligne)
+    langue (menu select: fr, en)
+    catégorie (qcu: actus, archives, portfolio, autre)
+    tags[] (qcm: technologie, droit, html, css, php, js, ruby)
+    image (image + upload fichier + lien suppression)
+    pièces jointes[] :
+      - liste des fichiers :
+        - nom fichier
+        - lien suppression
+      - upload fichiers
+
+    bouton
+
+    -->
+
+    <h1>création d'un article</h1>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <div>
+        <div>
+          <label>titre</label>
+        </div>
+        <div>
+          <input type="text" name="titre" value="" placeholder="titre" maxlength="255" required="" />
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        <div>
+      </div>
+
+      <div>
+        <div>
+          <label>slug</label>
+        </div>
+        <div>
+          <input type="text" name="slug" value="" placeholder="slug" maxlength="255" required="" />
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>chapeau</label>
+        </div>
+        <div>
+          <textarea name="chapeau"></textarea>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>corps de texte</label>
+        </div>
+        <div>
+          <textarea name="corps_de_texte"></textarea>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>langue</label>
+        </div>
+        <div>
+          <select name="langue" required="">
+            <option value="">Choisissez la langue</option>
+            <option value="fr'">Français</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>catégorie</label>
+        </div>
+        <div>
+          <select name="categorie" required="">
+            <option value="">Choisissez la catégorie</option>
+            <option value="actus'">Actus</option>
+            <option value="archives">Archives</option>
+            <option value="portfolio">Portfolio</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>tags</label>
+        </div>
+        <div>
+          <select name="tags[]" multiple="">
+            <option value="css'">CSS</option>
+            <option value="js">JS</option>
+            <option value="php">PHP</option>
+            <option value="ruby">Ruby</option>
+          </select>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>image</label>
+        </div>
+        <div>
+          <img src="medias/0a_b9g-rm6w-austin-neill-160x106.jpg" alt="" />
+        </div>
+        <div>
+          <input type="file" name="image" /> <a href="#"><img src="medias/iconmonstr-x-mark-4-24.png" alt="supprimer" /></a>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>pièces jointes</label>
+        </div>
+        <div>
+          <ul>
+            <li>file1.pdf <a href="#"><img src="medias/iconmonstr-x-mark-4-24.png" alt="supprimer" /></a></li>
+            <li>file2.pdf <a href="#"><img src="medias/iconmonstr-x-mark-4-24.png" alt="supprimer" /></a></li>
+            <li>file3.pdf <a href="#"><img src="medias/iconmonstr-x-mark-4-24.png" alt="supprimer" /></a></li>
+          </ul>
+        </div>
+        <div>
+          <input type="file" name="pieces_jointes[]" multiple="" />
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Publier</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>

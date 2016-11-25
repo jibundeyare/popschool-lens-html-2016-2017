@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+    <!-- quelques attributs intéressants à utiliser avec la balise input -->
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <div>
+        <input type="text" name="identifiant" value="daishi" placeholder="votre identifiant" readonly="" />
+      </div>
+
+      <div>
+        <input type="email" name="email" value="contact@email.com" placeholder="votre email" disabled="" />
+      </div>
+
+      <div>
+        <input type="text" name="status" value="" placeholder="de quelle humeur êtes-vous ajourd'hui ?" maxlength="10" />
+      </div>
+
+      <div>
+        <input type="password" name="mot_de_passe" value="" placeholder="votre mot de passe" required="" />
+      </div>
+
+      <div>
+        <input type="file" name="fichiers[]" multiple="" />
+      </div>
+
+      <div>
+        <button>Envoyer</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>

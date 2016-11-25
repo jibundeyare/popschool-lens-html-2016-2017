@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+    .input-text {
+        font-style: italic;
+    }
+
+    #titre {
+        color: red;
+    }
+
+    #slug {
+      color: blue;
+    }
+    </style>
+  </head>
+  <body>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <div id="titre" class="input-text">
+        <div>
+          <label>titre</label>
+        </div>
+        <div>
+          <input type="text" name="titre" value="" placeholder="titre" maxlength="255" required="" />
+        </div>
+      </div>
+
+      <div id="slug" class="input-text">
+        <div>
+          <label>slug</label>
+        </div>
+        <div>
+          <input type="text" name="slug" value="" placeholder="slug" maxlength="255" required="" />
+        </div>
+      </div>
+
+      <div>
+        <button>Publier</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>

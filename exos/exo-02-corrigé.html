@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+    <!--
+    qcu : quel est votre fruit préféré ?
+
+    qcm : à quel repas en mangez-vous ?
+    - petit déj
+    - déj
+    - goûter
+    - dîner
+
+    bouton submit
+    -->
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <div>
+        <div>
+          <label>quel est votre fruit préféré ?</label>
+        </div>
+        <div>
+          <input type="radio" name="fruit_prefere" value="pomme" /> <label>pomme</label>
+        </div>
+        <div>
+          <input type="radio" name="fruit_prefere" value="fraise" /> <label>fraise</label>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>à quel repas en mangez-vous ?</label>
+        </div>
+        <div>
+          <input type="checkbox" name="quel_repas[]" value="petit déj" /> <label>petit déj</label>
+        </div>
+        <div>
+          <input type="checkbox" name="quel_repas[]" value="déj" /> <label>déj</label>
+        </div>
+        <div>
+          <input type="checkbox" name="quel_repas[]" value="goûter" /> <label>goûter</label>
+        </div>
+        <div>
+          <input type="checkbox" name="quel_repas[]" value="dîner" /> <label>dîner</label>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" value="envoyer" />
+      </div>
+
+    </form>
+
+  </body>
+</html>

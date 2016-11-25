@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+
+    <!--
+
+    page création de catégorie (h1)
+
+    nom * (longueur max 255)
+    slug  * (longueur max 255)
+    description (texte multiligne)
+    langue * (menu select: fr, en)
+
+    bouton
+
+    -->
+
+    <h1>création de catégorie</h1>
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+      <div>
+        <div>
+          <label>nom</label>
+        </div>
+        <div>
+          <input type="text" name="nom" value="" placeholder="nom" maxlength="255" required="" />
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        <div>
+      </div>
+
+      <div>
+        <div>
+          <label>slug</label>
+        </div>
+        <div>
+          <input type="text" name="slug" value="" placeholder="slug" maxlength="255" required="" />
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>description</label>
+        </div>
+        <div>
+          <textarea name="description"></textarea>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <label>langue</label>
+        </div>
+        <div>
+          <select name="langue" required="">
+            <option value="">Choisissez la langue</option>
+            <option value="fr'">Français</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <div>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+
+      <div>
+        <button>Valider</button>
+      </div>
+
+    </form>
+
+  </body>
+</html>
