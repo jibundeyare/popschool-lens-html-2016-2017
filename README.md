@@ -6,7 +6,7 @@ Ce repo contient le code écrit durant le cours de html à Pop School Lens, sess
 
 ## Medias
 
-Voici les sources des mésias utilisés.
+Voici les sources des médias utilisés.
 
 ### Photos
 
