@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+  </head>
+  <body>
+
+    <h1>Comment afficher du code html dans une page html ?</h1>
+
+    <p>Pour afficher certains caractères il faut utiliser les symboles d'échappement :</p>
+
+    <ul>
+      <li>&amp;lt; donne &lt;</li>
+      <li>&amp;gt; donne &gt;</li>
+      <li>&amp;amp; donne &amp;</li>
+      <li>&amp;quot; donne &quot;</li>
+    </ul>
+
+    <p>La convention est d'insérer tout code dans une balise &lt;code&gt;&lt;/code&gt;.</p>
+
+    <p>Pour préserver le format du code (espaces, tabulations, sauts de ligne), il faut insérer le code dans une balise &lt;pre&gt;&lt;/pre&gt;.</p>
+
+    <p>
+      Voici du code html.<br />
+      Affichez la source pour voir la différence.
+    </p>
+
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;fr&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/base.css&quot; /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Hello World!
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+  </body>
+</html>
