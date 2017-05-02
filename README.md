@@ -4,6 +4,28 @@
 
 Ce repo contient le code écrit durant le cours de html à Pop School Lens, session 2016-2017.
 
+## Installation
+
+Downloadez un zip du repo ou clonez le avec git.
+
+## Structure type d'un projet html, css & js statique
+
+    document-root/
+      img/
+        *.gif
+        *.jpg
+        *.jpeg
+        *.png
+        *.svg
+      index.html
+      *.html
+
+## Déboguez votre code html
+
+- tester la compatibilité des navigateurs avec une fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
+- validation de code html4 : [The W3C Markup Validation Service](https://validator.w3.org/)
+- validation de code html5 : [Ready to check - Nu Html Checker](https://validator.w3.org/nu/)
+
 ## Medias
 
 Voici les sources des médias utilisés.
